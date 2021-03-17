@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class = "container">
+                <nav>
+                    <ul>
+                        <li><a href="https://github.com/macrolypoly" target = "blank"><img src="img/github.png" alt="Github" width = "200" height = "200" border = "0" class ="Icon"></a></li>
+                    </ul>
+                </nav>
+        <div id = "header-wrapper">           
+            <button onclick="botFunction()" id ="botBtn" title = "Go to bottom">Bottom</button>
+            <script>
+                scrollingElement = (document.scrollingElement || document.body)
+                function botFunction() {
+                    scrollingElement.scrollTop = scrollingElement.scrollHeight;
+                }
+            </script>
+                <div class = "image-background"></div>
+        </div>
+                <h1 id = "karina">Karina Rodriguez</h1>
+    </header>
+        </div>
+        <div id = "main">
+            <div id = "pages">
+<div class ="tab">
+    <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+  <button class="tablinks" onclick="openTab(event, 'Creature')">CSS Creature</button>
+  <button class="tablinks" onclick="openTab(event, 'HSHC')">HSHCKitties</button>
+  <button class="tablinks" onclick="openTab(event, 'Pair')">Text game</button>
+</div>
+<div id="About" class="tabcontent">
+    <h3>About me</h3>
+    <p>My name is Karina Rodriguez and I am 20 years old. I have coding experience in VB, C++ and I am currently learning html, css, and C#.</p>
+  </div>
+  
+  <div id="Creature" class="tabcontent">
+    <h3>CSS Creature assignment</h3>
+    <p>This is my cat I created using HTML and CSS.</p>
+    <a class = "csscreature"href="https://codepen.io/macrolypoly/pen/YzppjXp" target = "blank">
+        <div class = "imgcontain">
+    <img class = "cat" src="img/csscat.png"alt="">
+    <div class = "caption">
+        <div class = "content">
+            <div class ="project-name">
+                Karina Rodriguez:
+            </div>
+            <div class = "project-subname">
+                CSS Cat with a Hat
+            </div>
+            <div class = "project-desc">
+                A CodePen creation using CSS
+            </div>
+        </div>
+        </div>
+    </div>
+    </a>
+  </div>
+  
+  <div id="HSHC" class="tabcontent">
+    <h3>HSHCKitties</h3>
+    <p>This is my kitty adoption shop.</p>
+    <a class = "HSHC"href="https://macrolypoly.github.io/HSHCKitties/index.html" target = "blank">
+        <div class = "imgcontain">
+    <img class = "cat" src="img/ginger.jpg"alt="">
+    <div class = "caption">
+        <div class = "content">
+            <div class ="project-name">
+                Karina Rodriguez:
+            </div>
+            <div class = "project-subname">
+                HSHC Kitties for adoption
+            </div>
+            <div class = "project-desc">
+                An adoption site where you can browse featured kitties.
+            </div>
+        </div>
+        </div>
+    </div>
+    </a>
+  </div>
+  <div id="Pair" class="tabcontent">
+    <h3>Adventure text game</h3>
+    <p>This is a text adventure game I made with a partner.</p>
+    <a class = "Pair"href="https://github.com/macrolypoly/PairProgramGame" target = "blank">
+        <div class = "imgcontain">
+    <img class = "cat" src="img/pizza.jpg"alt="">
+    <div class = "caption">
+        <div class = "content">
+            <div class ="project-name">
+                Karina Rodriguez:
+            </div>
+            <div class = "project-subname">
+                Pizza delivery adventure game
+            </div>
+            <div class = "project-desc">
+                A game where you have to gather clues and find out where to deliver your pizza.
+            </div>
+        </div>
+        </div>
+    </div>
+    </a>
+  </div>
+  <script>
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+            </div>
+            
+            <div id = "background">
+
+            </div>
+        </div>
+        <div id = "footer-wrapper">
+            <footer id = "footer">
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                <script>
+                    mybutton = document.getElementById("myBtn");
+                    window.onscroll = function() {scrollFunction()};
+                    function scrollFunction() {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+                    }
+                    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0;
+                    }
+                </script>
+            </footer>
+        </div>
+
+    </div>
+</body>
+</html>
