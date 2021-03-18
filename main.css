@@ -20,12 +20,12 @@ h2 {
 p {
     font-size: 1.2em;
     line-height: 1.4em;
-    color:tomato;
+    color:rgb(236, 216, 37);
     padding: 0px;
     margin: 0px 0.5em 0.75em 0px;
 }
 h3 {
-    color:rebeccapurple;
+    color:crimson;
     font-size: 1.3em;
     margin: 0px 0.5em 0.5em 0px;
 }
@@ -175,6 +175,7 @@ nav li a:hover {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    background-color:rgba(101, 8, 206, 0.411);
   }
   .cat {
       display: block;
@@ -210,4 +211,30 @@ nav li a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.back {
+    opacity: 0.5;
+}
+label {
+    color:lightpink;
+}
+#sub {
+    color: black;
+    background-color:lightpink;
+}
+.artwork {
+    position:absolute;
+}
+.drawing {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style:none;
+}
+.rows {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
