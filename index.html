@@ -13,7 +13,7 @@
         <div class = "container">
                 <nav>
                     <ul>
-                        <li><a href="https://github.com/macrolypoly" target = "blank"><img src="img/github.png" alt="Github" width = "200" height = "200" border = "0" class ="Icon"></a></li>
+                        <li><a href="https://github.com/macrolypoly" target = "blank"><img src="assets/github.png" alt="Github" width = "200" height = "200" border = "0" class ="Icon"></a></li>
                     </ul>
                 </nav>
         <div id = "header-wrapper">           
@@ -32,22 +32,40 @@
         <div id = "main">
             <div id = "pages">
 <div class ="tab">
-    <button class="tablinks" onclick="openTab(event, 'About')">About</button>
-  <button class="tablinks" onclick="openTab(event, 'Creature')">CSS Creature</button>
-  <button class="tablinks" onclick="openTab(event, 'HSHC')">HSHCKitties</button>
-  <button class="tablinks" onclick="openTab(event, 'Pair')">Text game</button>
+  <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+  <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+  <button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
+  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
 </div>
 <div id="About" class="tabcontent">
     <h3>About me</h3>
-    <p>My name is Karina Rodriguez and I am 20 years old. I have coding experience in VB, C++ and I am currently learning html, css, and C#.</p>
+    <p>My name is Karina Rodriguez and I am 20 years old. I have coding experience in Visual Basic, C++ and I am currently learning HTML, CSS, and C#.</p>
+    <p>I was born in California and moved to Indiana in 2012.</p>
   </div>
-  
+  <div id="Projects" class="tabcontent">
+    <div class ="tab">
+        <button class="tablinks" onclick="openTab(event, 'Creature')">CSS Creature</button>
+        <button class="tablinks" onclick="openTab(event, 'HSHC')">HSHCKitties</button>
+        <button class="tablinks" onclick="openTab(event, 'Pair')">Text game</button>
+      </div>
+      <h3>Projects</h3>
+  </div>
+  <div id="Resume" class="tabcontent">
+    <h3>Resume</h3>
+    <iframe src="assets/KRResume2021.pdf" width="100%" height="1000px">
+    </iframe>
+  </div>
   <div id="Creature" class="tabcontent">
+    <div class ="tab">
+        <button class="tablinks" onclick="openTab(event, 'Creature')">CSS Creature</button>
+        <button class="tablinks" onclick="openTab(event, 'HSHC')">HSHCKitties</button>
+        <button class="tablinks" onclick="openTab(event, 'Pair')">Text game</button>
+      </div>
     <h3>CSS Creature assignment</h3>
     <p>This is my cat I created using HTML and CSS.</p>
     <a class = "csscreature"href="https://codepen.io/macrolypoly/pen/YzppjXp" target = "blank">
         <div class = "imgcontain">
-    <img class = "cat" src="img/csscat.png"alt="">
+    <img class = "cat" src="assets/csscat.png"alt="">
     <div class = "caption">
         <div class = "content">
             <div class ="project-name">
@@ -66,11 +84,16 @@
   </div>
   
   <div id="HSHC" class="tabcontent">
+    <div class ="tab">
+        <button class="tablinks" onclick="openTab(event, 'Creature')">CSS Creature</button>
+        <button class="tablinks" onclick="openTab(event, 'HSHC')">HSHCKitties</button>
+        <button class="tablinks" onclick="openTab(event, 'Pair')">Text game</button>
+      </div>
     <h3>HSHCKitties</h3>
     <p>This is my kitty adoption shop.</p>
     <a class = "HSHC"href="https://macrolypoly.github.io/HSHCKitties/index.html" target = "blank">
         <div class = "imgcontain">
-    <img class = "cat" src="img/ginger.jpg"alt="">
+    <img class = "cat" src="assets/ginger.jpg"alt="">
     <div class = "caption">
         <div class = "content">
             <div class ="project-name">
@@ -88,11 +111,16 @@
     </a>
   </div>
   <div id="Pair" class="tabcontent">
+    <div class ="tab">
+        <button class="tablinks" onclick="openTab(event, 'Creature')">CSS Creature</button>
+        <button class="tablinks" onclick="openTab(event, 'HSHC')">HSHCKitties</button>
+        <button class="tablinks" onclick="openTab(event, 'Pair')">Text game</button>
+      </div>
     <h3>Adventure text game</h3>
     <p>This is a text adventure game I made with a partner.</p>
     <a class = "Pair"href="https://github.com/macrolypoly/PairProgramGame" target = "blank">
         <div class = "imgcontain">
-    <img class = "cat" src="img/pizza.jpg"alt="">
+    <img class = "cat" src="assets/pizza.jpg"alt="">
     <div class = "caption">
         <div class = "content">
             <div class ="project-name">
@@ -108,6 +136,24 @@
         </div>
     </div>
     </a>
+  </div>
+  <div id="Contact" class="tabcontent">
+    <h3>Contact Karina</h3>
+    <form
+  action="https://formspree.io/f/xqkgrray"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <button type="submit">Send</button>
+</form>
   </div>
   <script>
     function openTab(evt, tabName) {
