@@ -238,3 +238,14 @@ label {
     margin-right: -15px;
     margin-left: -15px;
 }
+#footer2 {
+    background-color: #40362f;
+    height: 1px;
+    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+    position: fixed;
+    bottom: 0;
+}
