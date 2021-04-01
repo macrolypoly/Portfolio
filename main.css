@@ -80,7 +80,7 @@ header{
 header h1 {
     font-family: "Times New Roman", Times, serif;
     color: #259faf;
-    font-size: 10em;
+    font-size: 10vw;
     letter-spacing: -0.025em;
     margin: 0;
 }
@@ -131,7 +131,7 @@ nav li a:hover {
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 5vw;
   box-sizing:border-box;
 }
 #botBtn:hover {
@@ -154,7 +154,7 @@ nav li a:hover {
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 5vw;
   }
   
   #myBtn:hover {
