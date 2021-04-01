@@ -50,7 +50,7 @@ hr {
 }
 .contentWrapper {
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: 1170vw;
     padding: 0 3em;
 }
 .left {
@@ -68,7 +68,11 @@ div.clear {
     margin: 0 0 2.0px;
     background: hsl(221, 78%, 79%);
 }
+.container {
+background: hsl(221,78%,79%);
+}
 header{
+    width: 812vw;
     padding: 2.5px 0 0.5px;
     margin: 0 0 2.0px;
     background: hsl(221, 78%, 79%);
@@ -135,6 +139,7 @@ nav li a:hover {
 }
 #karina {
     text-align: center;
+    width:fit-content;
 }
 #myBtn {
     display: inline-block;
