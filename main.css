@@ -63,9 +63,16 @@ div.clear {
     clear:both;
     font-size: 1%;
 }
-header {
+#header-wrapper{
+    width:auto;
     padding: 2.5vw 0 0.5vw;
-    margin: 0 0 2.0em;
+    margin: 0 0 2.0vw;
+    background: hsl(221, 78%, 79%);
+}
+header{
+    width:auto;
+    padding: 2.5vw 0 0.5vw;
+    margin: 0 0 2.0vw;
     background: hsl(221, 78%, 79%);
 }
 header h1 {
