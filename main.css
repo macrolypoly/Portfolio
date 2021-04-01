@@ -80,6 +80,14 @@ header {
       text-align: left;
     }
   }
+    #potato {
+       /*max-width: 100%; */
+    width: 100vmax;
+    max-width: 1000vmax;
+    padding: 2.5vw 0 0.5vw;
+    margin: 0 0 2.0vw;
+    background: hsl(221, 78%, 79%);
+  }
 header{
     /*max-width: 100%; */
     width: 100vh;
@@ -136,9 +144,9 @@ nav li a:hover {
 }
 #botBtn {
     /*display:flex;*/
-  position:relative;
-  bottom: 250px;
-  left: 700px;
+  position:fixed;
+  top: 20px;
+  right: 30px;
   border: none; 
   outline: none;
   background-color: rgb(252, 141, 141);
